@@ -21,10 +21,11 @@ class Log extends React.Component {
                     <div className="custom-control custom-checkbox">
                         <input type="checkbox" className="custom-control-input" id="customCheck1" />
                         <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
-                    </div>
+                    </div> 
                 </div>
+                
                 <Link to = "/dashboard">
-                <button type="submit" className="btn btn-primary btn-block">Submit</button>
+                <button type="submit" className="btn">Submit</button>
                 </Link>
                 <p className="forgot-password text-right">
                     Forgot <a href="/">password?</a>

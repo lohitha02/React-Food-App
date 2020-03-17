@@ -27,10 +27,10 @@ class Sign extends React.Component {
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
                 <Link to = "/login">
-                <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+                <button type="submit" className="btn">Sign Up</button>
                 </Link>
                 <p className="forgot-password text-right">
-                    Already registered <a href="/login">sign in?</a>
+                    Already registered <a href="/login">Login?</a>
                 </p>
             </form>
         );
