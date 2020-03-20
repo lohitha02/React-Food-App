@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from "../components/NavBar";
 import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-grid';
 import Log from '../components/Log';
@@ -7,6 +8,7 @@ class Login extends React.Component {
     render() {
       return (
         <React.Fragment>
+          <NavBar />
           <Helmet>
             <title>Login Page</title>
           </Helmet>
