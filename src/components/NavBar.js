@@ -4,11 +4,17 @@ import '../styles/style.sass';
 class NavBar extends React.Component{
 render() {
     return ( 
-     
-        <div>
-            <a href="/login" className="navbar">Log In</a>
-            <a href="/signup" className="navbar">Sign Up</a>
+        <form>
+            <div class="xxx">
+            <a href="/login" >Log In</a>
+            <a href="/signup">Sign Up</a>
+            </div>
+        <div className="navbar">
+            <div class="nav">
+                <a href="/" >Home</a>
+            </div>
         </div>
+        </form>
         );
     }
 }
