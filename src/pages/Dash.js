@@ -1,15 +1,14 @@
-import React from "react"
-import Search from '../components/Search';
-import Maps from "../components/Maps";
+import React from 'react'
+import DashNav from '../components/DashNav'
 
-class Dash extends React.Component{
+class Dash extends React.Component {
     render() {
-        return(
+        return (
             <>
-            <Search />
-            <Maps />
+                <DashNav />
             </>
         );
     }
 }
-export default Dash;
+
+export default Dash
