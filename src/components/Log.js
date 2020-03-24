@@ -24,7 +24,7 @@ class Log extends React.Component {
                     </div> 
                 </div>
                 
-                <Link to = "/map">
+                <Link to = "/dash">
                 <button type="submit" className="btn">Submit</button>
                 </Link>
                 <p className="forgot-password text-right">
