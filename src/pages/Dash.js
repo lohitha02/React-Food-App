@@ -6,6 +6,7 @@ class Dash extends React.Component {
         return (
             <>
                 <DashNav />
+                
             </>
         );
     }
